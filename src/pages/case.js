@@ -92,7 +92,7 @@ export default function Case() {
     <p className="text-[15px] text-black pt-2 hover:text-blue-700">Cloud-Based HR Management Platform</p>
     
     <p className='text-[15px] text-gray-500 py-3'>Cut admin effort by 50%</p>
-<button className='text-sm inline-flex  text-blue-700 gap-1 '>View Case Study<ArrowRight className='w-4 h-4 hover:scale-110 transition-transform duration-300' /></button>
+<button className='text-sm inline-flex  text-blue-700 gap-1  transition-all duration-300'>View Case Study<ArrowRight className='w-4 h-4 transition-all duration-300  group-hover:translate-x-1' /></button>
   </div>
 </div>
 
