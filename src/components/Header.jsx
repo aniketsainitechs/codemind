@@ -37,7 +37,7 @@ export default function header() {
                         )}</div>
                         <a href="">Industries</a>
                         <a href="">Case Studies</a>
-                        <a href="">About</a>
+                        <a href="/about">About</a>
                         <a href="">Insights</a>
                         <a href="">Contact</a>
                     </div>
