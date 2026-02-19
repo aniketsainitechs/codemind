@@ -2,7 +2,7 @@ export default function about() {
   return (
     <>
       <div className="bg-gradient-to-br from-blue-50  via-purple-50 to-slate-50 pb-20 mt-10">
-        <div className=" text-5xl md:text-6xl  mb-6 pt-22 md:px-50  md:leading-15 px-7 text-center">
+        <div className=" text-5xl md:text-6xl  mb-6 pt-22 md:px-50 lg:px-25 xl:px-50  md:leading-15  px-7 text-center ">
           We Build with Intelligence. We Deliver with Integrity.
         </div>
         <div className="text-center text-gray-700 text-[20px] pt-3 font-thin px-6">
