@@ -1,4 +1,5 @@
 import { ArrowRight } from 'lucide-react';
+import Link from "next/link";
 export default function Case() {
   return (
     <>
@@ -25,8 +26,7 @@ export default function Case() {
         <div className="md:pt-20 xl:pt-20  pt-10  pb-20  px-[15px] xl:pr-[40px] md:px-8">
 
           {/*bg-image */}
-          <div className="rounded-2xl overflow-hidden shadow-xl relative  bg-cover bg-center bg-no-repeat aspect-[16/9] w-full 
- "
+          <div className="rounded-2xl overflow-hidden shadow-xl relative  bg-cover bg-center bg-no-repeat aspect-[16/9] w-full "
             style={{ 
               backgroundImage: "url('/photo-1758691737138-7b9b1884b1db.jfif')",
             }}
@@ -71,7 +71,7 @@ export default function Case() {
   <img className="w-full h-full  object-cover object-[50%_80%]  transition-transform duration-500 
                group-hover:scale-110 "src="./photo-1.jfif"></img>
                <div className='absolute top-4 left-4 bg-white rounded-2xl'>
-                <button className='px-2 pb-2  text-xs text-black '>AI & Automation</button>
+                <Link href = "/case1"className='px-2 pb-2  text-xs text-black '>AI & Automation</Link>
                </div>
   <div className='absolute bottom-0 left-0 right-0 bg-gray-100 py-5 px-5'>
     <p className="text-sm text-gray-400">FinTech Client</p>
