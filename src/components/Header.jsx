@@ -17,10 +17,10 @@ export default function header() {
 
 
 
-                    <div className="  hidden lg:flex xl:pt-3 xl text-gray-700 font-medium  gap-8  ">
+                    <div className="  hidden lg:flex xl:pt-3 xl text-gray-700   gap-8  ">
                         {/*dropdown */}
                         <div className="relative ">
-                            <span className="font-medium">Solution</span>
+                            <span className="">Solution</span>
                             <button className="hover:text-blue-600  transition"
                                 onClick={() => setOpen(!open)}>
                                 <MdOutlineKeyboardArrowDown className={`transition-transform duration-300 ml-1 ${open ? "" : ""}`} />

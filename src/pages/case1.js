@@ -9,46 +9,47 @@ export default  function Case1() {
     return(
 <>
 <div className="max-w-7xl mx-auto">
-<div className=" bg-gray-200 grid grid-cols-1 md:grid-cols-2 mt-20  ">
+<div className=" bg-blue-50 grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 mt-20  ">
 
 
-<div className="xl:px-10 px-5 pt-10">
-<Link href ="/case"className="text-blue-600 hover:text-blue-700  inline-flex gap-2"> <HiArrowLongLeft className="w-4 h-4 mt-1" />Back to Case Studies</Link><br/>
-<button className="text-blue-700 bg-blue-200 py-2 px-4 rounded-4xl text-sm mt-10">Financial technology</button>
-<p className="text-black text-5xl py-5">AI-Driven Workflow Automation for FinTech Firm </p>
+<div className="xl:px-10  px-5 pt-15">
+<Link href ="/case"className="text-blue-600 hover:text-blue-700  inline-flex gap-2"> <HiArrowLongLeft className="w-4 h-4 " />Back to Case Studies</Link><br/>
+<button className="text-blue-700 bg-blue-100 py-2 px-4 rounded-4xl text-sm mt-8">Financial technology</button>
+<p className="text-black text-4xl md:text-5xl py-5">AI-Driven Workflow Automation for FinTech Firm </p>
 <p className="text-blue-600 text-2xl">Reduced manual data entry by 60% with agentic AI orchestration</p>
-<p className="text-gray-600 text-xl py-8">A leading financial services provider needed to streamline their data processing workflows and reduce manual intervention in routine tasks.</p>
-<button className="text-white inline-flex gap-3 bg-black hover:bg-gray-900  text-sm  font-semibold py-2.5 px-5 rounded-lg">Learn More About This Solution <ArrowRight className="w-4 h-4"/></button>
+<p className="text-gray-600 text-xl py-6">A leading financial services provider needed to streamline their data processing workflows and reduce manual intervention in routine tasks.</p>
+<button className="text-white inline-flex gap-3  bg-black hover:bg-gray-900  text-sm  font-semibold py-2.5 px-5 rounded-lg">Learn More About This Solution <ArrowRight className="w-4 h-4"/></button>
 </div>
 
 
-<div className="py-15 px-5 xl:py-40 xl:px-0">
-    <img  className="h-[350px] max-w-[550px] border border-blue-200 object-cover  rounded-2xl w-full"src="./photo-1.jfif"></img></div>
+<div className="py-15 px-5 xl:py-40 lg:py-40 xl:px-0">
+    <img  className="h-[350px] w-[550px] border border-blue-200 object-cover  rounded-2xl w-full"src="./photo-1.jfif"></img></div>
 </div>
 
 {/*2. */}
 <div className="bg-white pt-20  px-10">
                    <h className="text-3xl text-black">Client Background</h>
 </div>
-<div className="bg-white grid grid-cols-1 md:grid-cols-2 gap-10 xl:px-10 px-5 pt-10 pb-20">
+<div className="bg-white grid grid-cols-1 md:grid-cols-1 xl:grid-cols-2 lg:grid-cols-2 gap-10 xl:px-10 px-5 pt-10 pb-20">
      
      
-      <div className=" rounded-xl"
+      <div className=" rounded-xl relative h-[280px]"
       style={{backgroundImage: "url('https://images.unsplash.com/photo-1758876202430-a0595cf17d3e?')" ,
 backgroundSize:"cover",
 backgroundPosition:"Center",
       }}
     >
+        <div className=" rounded-xl absolute inset-0 bg-gradient-to-br from-blue-600/20 to-transparent"></div>
       </div>
 
 
 
-  <div className="bg-gray-100 rounded-2xl border border-gray-200 xl:px-10 px-5  pt-8 pb-8 xl:h-[280px]">
+  <div className="bg-gray-100 rounded-2xl border border-gray-200 xl:px-10 lg:px-10  px-5 pt-5 xl:pt-10  lg:pt-5 lg:h-[280px] xl:h-[280px] h-[380px]">
     <p className="text-gray-500 text-sm">Industary</p>
     <p className="text-blue-600 text-xl pt-3 pb-5">Financial Technology</p>
     <hr className="text-gray-300 "/>
-    <p className="text-gray-500 text-sm pt-6">Challenge Overview</p>
-    <p className="text-gray-700 text-lg pt-4">The client was processing thousands of financial documents daily, requiring significant manual data entry and verification. This led to delays, errors, and high operational costs.</p>
+    <p className="text-gray-500 text-sm pt-6 pb-3">Challenge Overview</p>
+    <p className="text-gray-700 text-lg ">The client was processing thousands of financial documents daily, requiring significant manual data entry and verification. This led to delays, errors, and high operational costs.</p>
   </div>
 
 </div>
@@ -72,7 +73,7 @@ backgroundPosition:"Center",
 
  <div className="border border-gray-300 rounded-xl py-6  bg-white">
 <div className="flex item-start gap-3 pl-5">
-<div className="  flex-shrink-0 flex items-center justify-center rounded-full w-8 h-8 bg-red-100 text-center text-red-600 ">
+<div className="   flex items-center justify-center rounded-full w-8 h-8 bg-red-100 text-center text-red-600 ">
     <span>!</span>
 </div> 
 <p className="text-gray-700 ">High error rates in data entry (15-20%)</p>
@@ -82,7 +83,7 @@ backgroundPosition:"Center",
 
    <div className="border border-gray-300 rounded-xl py-6 bg-white ">
 <div className="flex item-start gap-3 pl-5">
-<div className="  flex-shrink-0 flex items-center justify-center rounded-full w-8 h-8 bg-red-100 text-center text-red-600 ">
+<div className="   flex items-center justify-center rounded-full w-8 h-8 bg-red-100 text-center text-red-600 ">
     <span>!</span>
 </div> 
 <p className="text-gray-700 ">Average processing time of 48 hours per batch</p>
@@ -92,7 +93,7 @@ backgroundPosition:"Center",
 
    <div className="border border-gray-300 rounded-xl py-6 bg-white">
 <div className="flex item-start gap-3 pl-5">
-<div className=" flex-shrink-0 flex items-center justify-center  rounded-full w-8 h-8 bg-red-100 text-center text-red-600 ">
+<div className="  flex items-center justify-center  rounded-full w-8 h-8 bg-red-100 text-center text-red-600 ">
     <span>!</span>
 </div> 
 <p className="text-gray-700 ">Compliance risks due to human oversight</p>
