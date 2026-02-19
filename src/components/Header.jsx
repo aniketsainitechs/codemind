@@ -7,7 +7,7 @@ export default function header() {
     const [open, setOpen] = useState(false);
     return (
         <>
-            <nav className="fixed top-0 left-0 w-full   z-50 bg-white/40 xl:z-50 xl:bg-white/40 backdrop-blur-3xl  bg-white xl:backdrop-blur-3xl  lg:z-50 lg:bg-white/40  lg:backdrop-blur-3xl  md:z-50 md:bg-white/40  md:backdrop-blur-3xl  border border-white/20">
+            <nav className="fixed top-0 left-0 w-full   z-50 bg-white/40 xl:z-50 xl:bg-white/70 backdrop-blur-2xl  bg-white xl:backdrop-blur-3xl  lg:z-50 lg:bg-white/40  lg:backdrop-blur-3xl  md:z-50 md:bg-white/40  md:backdrop-blur-3xl  border border-y-gray-200">
                 <div className="max-w-7xl mx-auto flex py-5 px-[30px] items-center justify-between">
                     <div className="flex items-center"><img
                         src="./b2204b1a-a176-43b3-b810-e4179702a358.png"

@@ -65,27 +65,33 @@ export default function Case() {
 
 {/*third div */}
 
-<div className='grid grid-cols-1 md:grid-cols-3 justify-items-center px-5 pb-10 pt-20 gap-10 '>
+<div className='grid grid-cols-1 md:grid-cols-3  px-5  pb-10 pt-20 gap-10 '>
 {/*1 */}
-<div className='group relative text-xl text-amber-200 rounded-xl shadow-md w-[380px] h-[350px] overflow-hidden cursor-pointer transition-all duration-300 hover:-translate-y-1 hover:shadow-xl'>
+<div className='group relative text-xl text-amber-200 rounded-xl shadow-md w-full max-w-[380px] h-[350px]  overflow-hidden cursor-pointer transition-all duration-300 hover:-translate-y-1 hover:shadow-xl '>
   <img className="w-full h-full  object-cover object-[50%_80%]  transition-transform duration-500 
                group-hover:scale-110 "src="./photo-1.jfif"></img>
-  <div className='absolute bottom-0 left-0 right-0 bg-white py-5 px-5'>
+               <div className='absolute top-4 left-4 bg-white rounded-2xl'>
+                <button className='px-2 pb-2  text-xs text-black '>AI & Automation</button>
+               </div>
+  <div className='absolute bottom-0 left-0 right-0 bg-gray-100 py-5 px-5'>
     <p className="text-sm text-gray-400">FinTech Client</p>
     
     <p className="text-[15px] text-black pt-2 hover:text-blue-700 ">AI-Driven Workflow Automation</p>
     
     <p className='text-[15px] text-gray-500 py-3 '>Reduced manual data entry by 60%</p>
-<button className='text-sm inline-flex  text-blue-700 gap-1 '>View Case Study<ArrowRight className='w-4 h-4  transition-transform duration-300 hover:scale-110' /></button>
+<button className='text-sm inline-flex  text-blue-700 gap-1  transition-all duration-300'>View Case Study<ArrowRight className='w-4 h-4 transition-all duration-300  group-hover:translate-x-1' /></button>
   </div>
 </div>
 
 
 
 {/*2 */}
-<div className='group relative text-xl text-amber-200 rounded-xl shadow-md  w-[380px] h-[350px]  overflow-hidden cursor-pointer transition-all duration-300 hover:-translate-y-1 hover:shadow-xl'>
+<div className='group relative text-xl text-amber-200 rounded-xl shadow-md w-full max-w-[380px] h-[350px]  overflow-hidden cursor-pointer transition-all duration-300 hover:-translate-y-1 group-hover:shadow-xl'>
   <img className="w-full h-full object-cover object-[50%_80%]  transition-transform duration-500 
                group-hover:scale-110"src="./photo-2.jfif"></img>
+               <div className='absolute top-4 left-4 bg-white rounded-2xl'>
+                <button className='px-2 pb-2  text-xs text-black '>Product Development</button>
+               </div>
   <div className='absolute bottom-0 left-0 right-0 bg-white py-5 px-5'>
     <p className="text-sm text-gray-400">HR SaaS Company</p>
     
@@ -98,41 +104,54 @@ export default function Case() {
 
 
 {/*3 */}
-<div className=' group relative text-xl text-amber-200 rounded-xl shadow-md  w-[400px] h-[350px] overflow-hidden cursor-pointer transition-all duration-300 hover:-translate-y-1 hover:shadow-xl '>
-  <img className="w-full h-full object-cover object-[50%_45%] transition-transform duration-500 
+<div className=' group relative text-xl text-amber-200 rounded-xl shadow-md  w-full max-w-[380px] h-[350px] ] overflow-hidden cursor-pointer transition-all duration-300 hover:-translate-y-1 hover:shadow-xl '>
+  <img className="w-full h-full pb-30 transition-transform duration-500 
                group-hover:scale-110"src="./photo-3.jfif"></img>
+                <div className='absolute top-4 left-4 bg-white rounded-2xl'>
+                <button className='px-2 pb-2  text-xs text-black '>Product Development</button>
+               </div>
   <div className='absolute bottom-0 left-0 right-0 bg-white py-5 px-5'>
     <p className="text-sm text-gray-400">Events Industry</p>
   
     <p className="text-[15px] text-black pt-2 hover:text-blue-700">Enterprise Event Management Platform</p>
 
     <p className='text-[15px] text-gray-500 py-3'>60% more efficient coordination</p>
-<button className='text-sm inline-flex  text-blue-700 gap-1 '>View Case Study<ArrowRight className='w-4 h-4 hover:scale-110 transition-transform duration-300' /></button>
+<button className='text-sm inline-flex  text-blue-700 gap-1 '>View Case Study<ArrowRight className='w-4 h-4 transition-all duration-300  group-hover:translate-x-1' /></button>
   </div>
 </div>
 
 
 {/*4 */}
-<div className=' group relative text-xl text-amber-200 rounded-xl shadow-md w-[380px] h-[350px]   overflow-hidden cursor-pointer transition-all duration-300 hover:-translate-y-1 hover:shadow-xl'>
-  <img className="w-full h-full object-cover object-[50%_80%]  transition-transform duration-500 
+<div className=' group relative text-xl text-amber-200 rounded-xl shadow-md w-full max-w-[380px] h-[350px]    overflow-hidden cursor-pointer transition-all duration-300 hover:-translate-y-1 hover:shadow-xl'>
+  <img className="w-full h-full object-cover object-[50%_100%]  transition-transform duration-500 
                group-hover:scale-110 "src="./photo-4.jfif"></img>
+                <div className='absolute top-4 left-4 bg-white rounded-2xl'>
+                <button className='px-2 pb-2  text-xs text-black '>Talent Augmentation</button>
+               </div>
   <div className='absolute bottom-0 left-0 right-0 bg-white py-5 px-5'>
     <p className="text-sm text-gray-400">Financial Services Provider</p>
   
     <p className="text-[15px] text-black pt-2 hover:text-blue-700">Specialized Engineering Team</p>
   
     <p className='text-[15px] text-gray-500 py-3'>faster project delivery</p>
-<button className='text-sm inline-flex  text-blue-700 gap-1 '>View Case Study<ArrowRight className='w-4 h-4 hover:scale-110 transition-transform duration-300' /></button>
+<button className='text-sm inline-flex  text-blue-700 gap-1 '>View Case Study<ArrowRight className='w-4 h-4 transition-all duration-300  group-hover:translate-x-1' /></button>
   </div>
 </div>
 
 </div>
 
+
+
+<div className='bg-blue-600 text-center xl:px-0 px-5 py-[80px]'>
+  <p className='text-white text-4xl '>Ready to Create Your Success Story?</p>
+    <p className='text-gray-200 md:text-xl tracking-wide'>Let's discuss how we can deliver measurable results for your business</p>
+<div className='space-x-5 pt-10 '>
+<button className='bg-white hover:bg-gray-300 text-black text-sm py-2 px-4 rounded-lg font-semibold'>Book a Discovery Call</button>
+<button className='bg-white hover:bg-blue-600  hover:text-black text-white text-sm py-2 px-4  border border-white rounded-lg font-semibold'>Contact Us</button>
+</div>
 </div>
 
-
-
-
+</div>
 
 
     </>
