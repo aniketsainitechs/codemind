@@ -12,12 +12,12 @@ export default function Footer() {
 
                         <div className="flex gap-4">
                             <a href="" className="w-10 h-10 rounded-lg bg-white/10 hover:bg-white/20 flex items-center justify-center transition-colors">
-                                <Linkedin className='h-5 w-5' /></a>
+                                <Linkedin className='h-5 w-5 text-white' /></a>
                             <a href="" className="w-10 h-10 rounded-lg bg-white/10 hover:bg-white/20 flex items-center justify-center transition-colors">
-                                <Github />
+                                <Github  className='h-5 w-5 text-white'  />
                             </a>
                             <a href="" className="w-10 h-10 rounded-lg bg-white/10 hover:bg-white/20 flex items-center justify-center transition-colors">
-                                <Twitter />
+                                <Twitter  className='h-5 w-5 text-white'  />
                             </a>
                         </div>
 

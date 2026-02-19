@@ -47,8 +47,8 @@ export default function Industries() {
                   text-blue-700 bg-white/90 p-4 rounded-2xl shadow-lg  '><Building2 className='h-12 w-12' /></div>
                                 </div>
                                 <div className='py-12 px-6'>
-                                    <h1 className='text-2xl text-black'>Finance</h1>
-                                    <h1 className='py-4 text-foreground/80'>Resource augmentation for banking and fintech projects.</h1>
+                                    <h1 className='text-2xl text-black font-medium'>Finance</h1>
+                                    <h1 className='py-4 text-foreground/80 '>Resource augmentation for banking and fintech projects.</h1>
                                     <p className='text-foreground/60 pr-4'>Helping financial organizations access vetted technical experts for rapid scaling and compliance-driven delivery.</p>
                                 </div></div>
                             <div className='border-2 border-gray-200 hover:border-blue-500/50 rounded-2xl hover:shadow-xl overflow-hidden '>
@@ -66,7 +66,7 @@ export default function Industries() {
                   text-blue-700 bg-white/90 p-4 rounded-2xl shadow-lg  '><Users className='h-12 w-12' /> </div>
                                 </div>
                                 <div className='px-6 pt-12 pb-6'>
-                                    <h1 className='text-2xl text-black'>HR & SaaS Platforms</h1>
+                                    <h1 className='text-2xl text-black font-medium'>HR & SaaS Platforms</h1>
                                     <h1 className='py-4 text-foreground/80'>Building next-gen SaaS applications for workforce and business management.</h1>
                                     <p className='text-foreground/60 mb-0 pr-6'>Example: End-to-end HR platform for workforce automation — from onboarding to analytics.</p>
                                 </div></div>
@@ -91,7 +91,7 @@ export default function Industries() {
                   text-blue-700 bg-white/90 p-4 rounded-2xl shadow-lg  '><Calendar className='h-12 w-12' /></div>
                                 </div>
                                 <div className='pt-12 px-6 pb-6'>
-                                    <h1 className='text-2xl text-black'>Events & Marketplace Platforms</h1>
+                                    <h1 className='text-2xl text-black font-medium'>Events & Marketplace Platforms</h1>
                                     <h1 className='py-4 text-foreground/80'>Developed a full-fledged enterprise solution for event management.</h1>
                                     <p className='text-foreground/60'>A digital marketplace enabling organizers to manage vendors, logistics, and live event operations seamlessly.</p>
                                 </div></div>
@@ -110,7 +110,7 @@ export default function Industries() {
                   text-blue-700 bg-white/90 p-4 rounded-2xl shadow-lg  '><Rocket className='h-12 w-12' /> </div>
                                 </div>
                                 <div className='pt-12 px-6 pb-6'>
-                                    <h1 className='text-2xl text-black'>Technology & Startups</h1>
+                                    <h1 className='text-2xl text-black font-medium'>Technology & Startups</h1>
                                     <h1 className='py-4 text-foreground/80'>Helping product companies and startups scale faster.</h1>
                                     <p className='text-foreground/60 px-2 md:px-0'>From MVPs to enterprise builds — delivering reliable product development and AI integration support.</p>
                                 </div></div>
@@ -122,7 +122,7 @@ export default function Industries() {
                 </div>
                 {/* Real Solutions heading */}
                 <div className='md:py-22  py-16'>
-                    <h1 className='text-center md:text-5xl  text-3xl font-semibold   mx-6'>Real Solutions. Real Impact.</h1></div>
+                    <h1 className='text-center md:text-5xl  text-3xl font-medium   mx-6'>Real Solutions. Real Impact.</h1></div>
 
                 {/* 3 cards */}
                 <div className='grid md:grid-cols-3 gap-8  md:mx-8 mx-4'>
@@ -183,7 +183,7 @@ export default function Industries() {
                 </div>
                 {/*  Technology heading */}
                 <div className=' py-20 lg:py-32 bg-background mx-auto px-4 lg:px-8   '>
-                    <h1 className='text-3xl md:text-5xl max-w-3xl mb-16 text-center mx-auto flex justify-center font-semibold mb-4 pt-18'>Technology, AI, and Talent — The Pillars of Our Impact</h1>
+                    <h1 className='text-3xl md:text-5xl max-w-3xl mb-16 text-center mx-auto flex justify-center font-medium mb-4 pt-18'>Technology, AI, and Talent — The Pillars of Our Impact</h1>
                     {/*  3 cols */}
                     <div className='grid grid-cols-1 md:grid-cols-3 gap-8 '>
                         {/*  1 col */}
@@ -222,7 +222,7 @@ export default function Industries() {
                 <div className='py-20 lg:py-32 bg-gradient-to-br from-blue-50 via-purple-50 to-white'>
                     <div className='mx-auto px-4 lg:px-8'>
                         {/*  heading */}
-                        <h1 className='text-3xl lg:text-5xl  text-black max-w-3xl mb-16 text-center mx-auto '>A Partner for Growth — Flexible, Fast, and Focused on Outcomes</h1>
+                        <h1 className='text-3xl lg:text-5xl  text-black max-w-3xl mb-16 text-center mx-auto font-medium '>A Partner for Growth — Flexible, Fast, and Focused on Outcomes</h1>
                         {/*  2 col */}
                         <div className='grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto'>
 
