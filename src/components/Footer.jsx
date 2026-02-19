@@ -3,12 +3,13 @@ export default function Footer() {
     return (
         <>
             <footer className="bg-slate-900 text-gray-300 py-16   ">
-                <div className=" container mx-auto px-4 lg:px-8">
+                <div className=" container mx-auto max-w-7xl px-4 lg:px-8">
                 <div className="grid md:grid-cols-2 lg:grid-cols-6 gap-8 mb-12">
                     <div className="lg:col-span-2">
-                        <p className="text-sm text-white/70 mb-4 max-w-sm">Accelerating innovation with AI, agile engineering, and on-demand talent.</p>
 
                         <img src="logo.png" alt="" className="h-12 w-auto mb-4 " />
+                                                <p className="text-sm text-white/70 mb-4 max-w-sm">Accelerating innovation with AI, agile engineering, and on-demand talent.</p>
+
                         <div className="flex gap-4">
                             <a href="" className="w-10 h-10 rounded-lg bg-white/10 hover:bg-white/20 flex items-center justify-center transition-colors">
                                 <Linkedin className='h-5 w-5' /></a>
@@ -26,7 +27,7 @@ export default function Footer() {
                     </div>
                     <div>
                         <h1 className='mb-4 text-white'>Solutions</h1>
-                        <ul className='space-y-2'>
+                        <ul className='space-y-3'>
                             <li>
                                 <a href="" className='text-sm text-white/70 hover:text-white transition-colors '> Product Development</a>
                             </li>
@@ -36,7 +37,7 @@ export default function Footer() {
                     </div>
                     <div>
                         <h1 className='mb-4 text-white'>Industries</h1>
-                        <ul className='space-y-2'>
+                        <ul className='space-y-3'>
                             <li>
                                 <a href="" className='text-sm text-white/70 hover:text-white transition-colors'> Finance</a>
                             </li>
@@ -48,7 +49,7 @@ export default function Footer() {
                     </div>
                     <div>
                         <h1 className='mb-4 text-white'>Company</h1>
-                        <ul className='space-y-2'>
+                        <ul className='space-y-3'>
                             <li>
                                 <a href="" className='text-sm text-white/70 hover:text-white transition-colors'> About Us</a>
                             </li>
@@ -60,7 +61,7 @@ export default function Footer() {
                     </div>
                     <div>
                         <h1 className='mb-4 text-white'>Resources</h1>
-                        <ul className='space-y-2'>
+                        <ul className='space-y-3'>
                             <li>
                                 <a href="" className='text-sm text-white/70 hover:text-white transition-colors'> Blog</a>
                             </li>
