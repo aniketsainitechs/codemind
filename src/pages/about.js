@@ -2,10 +2,10 @@ export default function about() {
   return (
     <>
       <div className="bg-gradient-to-br from-blue-50  via-purple-50 to-slate-50 pb-20 mt-10">
-        <div className=" text-5xl md:text-6xl  mb-6 pt-22 md:px-50 lg:px-25 xl:px-50  md:leading-15  px-7 text-center ">
+        <div className=" text-5xl md:text-6xl  mb-3 pt-22 md:px-50 lg:px-25 xl:px-50  md:leading-15  px-7 text-center ">
           We Build with Intelligence. We Deliver with Integrity.
         </div>
-        <div className="text-center text-gray-700 text-[20px] pt-3 font-thin px-6">
+        <div className="text-center  text-[20px] pt-3  px-6   text-foreground/70 leading-relaxed">
           At Augmented Resourcing, people and technology come together to create
           real business impact.
         </div>
@@ -46,7 +46,7 @@ export default function about() {
             </div>
 
             {/* 3 */}
-            <div className="bg-white border-1 border-gray-300 rounded-xl p-8 mb-6">
+            <div className="bg-white border-1 border-gray-200 rounded-xl p-8 mb-6">
               <p className="text-lg text-foreground/80 leading-relaxed mb-6">
                 Founded in 2021, Augmented Resourcing was built on a simple idea
                 — combine world-className talent with cutting-edge technology to
@@ -61,25 +61,24 @@ export default function about() {
             <a
               href="#about/our-story"
               data-slot="button"
-              className="inline-flex items-center mb-20 border-1 border-gray-300 justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50   bg-background text-foreground hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50 h-9  py-2 px-3"
+              className="inline-flex  hover:bg-gray-100 items-center mb-20 border-1 border-gray-200 justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50   bg-background text-foreground hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50 h-9   py-2 px-3"
             >
               Read Our Full Story
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                className="lucide lucide-arrow-right ml-2 h-5 w-5"
-                aria-hidden="true"
-              >
-                <path d="M5 12h14"></path>
-                <path d="m12 5 7 7-7 7"></path>
-              </svg>
+               <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      className="ml-2 h-4 w-4"
+                    >
+                      <path d="M5 12h14"></path>
+                      <path d="m12 5 7 7-7 7"></path>
+                    </svg>
             </a>
           </div>
         </div>
@@ -138,7 +137,7 @@ export default function about() {
 
                   <a
                     href=""
-                    className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-800 disabled:pointer-events-none disabled:opacity-50 border border-gray-200 bg-white text-gray-900  hover:bg-gray-100 hover:text-gray-900 h-9 px-4 py-2"
+                    className="inline-flex font-semibold items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-800 disabled:pointer-events-none disabled:opacity-50 border border-gray-200 bg-white text-gray-900  hover:bg-gray-100 hover:text-gray-900 h-9 px-4 py-2"
                   >
                     Meet the Leadership
                     <svg
@@ -187,12 +186,12 @@ export default function about() {
             </svg>
           </div>
 
-          <h2 class="text-3xl font-medium text-gray-900">
+          <h2 class="text-3xl  text-gray-900">
             Why Augmented Resourcing
           </h2>
         </div>
         <div className=" bg-gradient-to-br from-blue-50 to-purple-50  rounded-xl p-7 md:mx-0  mx-4 mb-6 ">
-          <p className="text-xl font-medium text-gray-900 leading-relaxed mb-4">
+          <p className="text-xl  text-gray-900 leading-relaxed mb-4">
             We are not a traditional outsourcing firm — we are a delivery
             orchestrator.
           </p>
@@ -204,7 +203,7 @@ export default function about() {
 
         <a
           href=""
-          className="mb-20 inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 border border-gray-200 bg-white text-gray-900  hover:bg-gray-100 hover:text-gray-900 h-9 px-4 py-2"
+          className="mb-20 inline-flex items-center font-semibold justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 border border-gray-200 bg-white text-gray-900  hover:bg-gray-100 hover:text-gray-900 h-9 px-4 py-2"
         >
           Why Clients Choose Us
           <svg
@@ -248,21 +247,21 @@ export default function about() {
  <div className="py-20 ">
   <div className="container mx-auto px-4 text-center max-w-3xl ">
     
-    <h2 className="text-3xl font-medium mb-4 px-2">Ready to Build Together?</h2>
+    <h2 className="text-3xl  mb-4 px-2">Ready to Build Together?</h2>
     <p className=" text-xl text-foreground/70 mb-8 px-2">
       Let's explore how we can help accelerate your digital transformation.
     </p>
     
     <div className="flex flex-wrap justify-center gap-4">
       
-      <button className="inline-flex items-center h-10 px-4 rounded-md bg-black text-white hover:opacity-90 transition">
+      <button className="inline-flex items-center h-10 px-4 rounded-md bg-black text-white hover:opacity-80 transition">
         Contact Us
         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="ml-2">
           <path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path>
         </svg>
       </button>
 
-      <button className="inline-flex items-center h-10 px-4 rounded-md border border-gray-300 hover:bg-gray-100 transition">
+      <button className="inline-flex items-center h-10 px-4 rounded-md border border-gray-300 hover:bg-gray-200 transition">
         View Case Studies
       </button>
 
