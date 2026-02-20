@@ -1,3 +1,6 @@
+import Button from "@/components/ui/Button";
+import { ArrowRight} from 'lucide-react';
+
 export default function about() {
   return (
     <>
@@ -58,28 +61,13 @@ export default function about() {
                 intelligent automation systems worldwide.
               </p>
             </div>
-            <a
-              href="#about/our-story"
-              data-slot="button"
-              className="inline-flex  hover:bg-gray-100 items-center mb-20 border-1 border-gray-200 justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50   bg-background text-foreground hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50 h-9   py-2 px-3"
-            >
-              Read Our Full Story
-               <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      className="ml-2 h-4 w-4"
-                    >
-                      <path d="M5 12h14"></path>
-                      <path d="m12 5 7 7-7 7"></path>
-                    </svg>
-            </a>
+            <Button
+              variant="primary"
+              href="/solutions"
+              icon={<ArrowRight className="h-5 w-4" />}
+              className="  !text-black bg-white rounded-lg border border-gray-200 inline-flex !py-[8px]" >
+            Read Our Full Story
+            </Button>
           </div>
         </div>
       </div>
@@ -135,27 +123,13 @@ export default function about() {
                     reliability, agility, and long-term client success.
                   </p>
 
-                  <a
-                    href=""
-                    className="inline-flex font-semibold items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-800 disabled:pointer-events-none disabled:opacity-50 border border-gray-200 bg-white text-gray-900  hover:bg-gray-100 hover:text-gray-900 h-9 px-4 py-2"
-                  >
-                    Meet the Leadership
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      className="ml-2 h-4 w-4"
-                    >
-                      <path d="M5 12h14"></path>
-                      <path d="m12 5 7 7-7 7"></path>
-                    </svg>
-                  </a>
+                    <Button
+              variant="primary"
+              href="/solutions"
+              icon={<ArrowRight className="h-5 w-4" />}
+              className="  !text-black bg-white rounded-lg border border-gray-200 inline-flex !py-[8px]" >
+      Meet the Leadership
+            </Button>
                 </div>
               </div>
             </div>
@@ -201,30 +175,16 @@ export default function about() {
           </p>
         </div>
 
-        <a
-          href=""
-          className="mb-20 inline-flex items-center font-semibold justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 border border-gray-200 bg-white text-gray-900  hover:bg-gray-100 hover:text-gray-900 h-9 px-4 py-2"
-        >
-          Why Clients Choose Us
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            className="ml-2 h-4 w-4"
-          >
-            <path d="M5 12h14" />
-            <path d="m12 5 7 7-7 7" />
-          </svg>
-        </a>
+         <Button
+              variant="primary"
+              href="/solutions"
+              icon={<ArrowRight className="h-5 w-4" />}
+              className="  !text-black bg-white rounded-lg border border-gray-200 inline-flex !py-[8px] mb-20" >
+    Why Clients Choose Us
+            </Button>
       </div>
 
-{/* 6 */}
+      {/* 6 */}
       <div className="py-20 bg-gradient-to-br from-blue-600 to-blue-800 text-white">
         <div className="grid md:grid-cols-3 gap-8 text-center container mx-auto px-4 lg:px-30">
           <div>
@@ -241,34 +201,37 @@ export default function about() {
           </div>
         </div>
       </div>
-{/* 7 */}
+      {/* 7 */}
 
-<div>
- <div className="py-20 ">
-  <div className="container mx-auto px-4 text-center max-w-3xl ">
-    
-    <h2 className="text-3xl  mb-4 px-2">Ready to Build Together?</h2>
-    <p className=" text-xl text-foreground/70 mb-8 px-2">
-      Let's explore how we can help accelerate your digital transformation.
-    </p>
-    
-    <div className="flex flex-wrap justify-center gap-4">
-      
-      <button className="inline-flex items-center h-10 px-4 rounded-md bg-black text-white hover:opacity-80 transition">
-        Contact Us
-        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="ml-2">
-          <path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path>
-        </svg>
-      </button>
+      <div>
+        <div className="py-20 ">
+          <div className="container mx-auto px-4 text-center max-w-3xl ">
 
-      <button className="inline-flex items-center h-10 px-4 rounded-md border border-gray-300 hover:bg-gray-200 transition">
-        View Case Studies
-      </button>
+            <h2 className="text-3xl  mb-4 px-2">Ready to Build Together?</h2>
+            <p className=" text-xl text-foreground/70 mb-8 px-2">
+              Let's explore how we can help accelerate your digital transformation.
+            </p>
 
-    </div>
-  </div>
-</div>
-</div>
+            <div className="flex flex-wrap justify-center gap-4">
+
+               <Button
+                                                 variant="primary"
+                                                 href="/solutions"
+                                                 icon={<ArrowRight className="h-5 w-4" />}
+                                             >
+                                                Contact Us
+                                             </Button>
+   <Button
+                                    variant="secondary"
+                                    href="/contact"
+                               className="!py-[8px] px-6" >
+                                   View Case Studies
+                                </Button>
+
+            </div>
+          </div>
+        </div>
+      </div>
 
     </>
   );

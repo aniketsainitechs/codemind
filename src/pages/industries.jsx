@@ -1,3 +1,4 @@
+import Button from '@/components/ui/Button';
 
 import { ArrowRight, Building2, Users, Calendar, Rocket, CodeXml, Bot, UserPlus, Target, TrendingUp, Clock } from 'lucide-react';
 export default function Industries() {
@@ -12,10 +13,24 @@ export default function Industries() {
                             <h1 className="text-4xl md:text-6xl lg:text-6xl mb-6 px-4 lg:px-0 ">Driving Innovation Across Industries with Technology, Talent & AI</h1>
                             <p className="text-xl text-foreground/70 mb-8 max-w-3xl md:mx-18 mx-2">We empower businesses in finance, SaaS, HR, and events to scale faster through modern engineering, automation,
                                 and expert talent — delivering measurable outcomes and long-term digital impact.</p>
+                            {/* 2 button  Explore Our Solutions and Talk to Our Team */}
+                            <div className="flex flex-col sm:flex-row gap-4 justify-center">
 
-                            <div className="flex flex-col sm:flex-row gap-4 justify-center ">
-                                <a href="" className=" flex bg-black text-white text-sm items-center justify-center font-medium py-[11px] px-4 rounded-lg cursor-pointer gap-4 text-center">Explore Our Solutions  <ArrowRight className='h-5 w-4' /></a>
-                                <a href="" className="bg-white border border-gray-300 text-black text-sm font-medium py-2 px-4 rounded-lg cursor-pointer hover:bg-gray-200">Talk to Our Team</a>
+                                <Button
+                                    variant="primary"
+                                    href="/solutions"
+                                    icon={<ArrowRight className="h-5 w-4" />}
+                                >
+                                    Explore Our Solutions
+                                </Button>
+
+                                <Button
+                                    variant="secondary"
+                                    href="/contact"
+                                >
+                                    Talk to Our Team
+                                </Button>
+
                             </div>
                         </div>
 
@@ -129,11 +144,11 @@ export default function Industries() {
 
                     {/*  Finance */}
                     <div className=' border border-gray-200  overflow-hidden rounded-2xl hover:shadow-2xl flex flex-col gap-8'>
-                       <div className='relative '>
-                         <div className=' transition-transform  hover:scale-110 duration-500'>
-                            <img src="h.jpg" alt="" className='object-cover w-full h-58' /> </div>
+                        <div className='relative '>
+                            <div className=' transition-transform  hover:scale-110 duration-500'>
+                                <img src="h.jpg" alt="" className='object-cover w-full h-58' /> </div>
                             <div className='absolute top-4 right-4 bg-blue-600 text-white px-4 py-2 rounded-full shadow-lg'>3x Faster Delivery</div>
-                           </div>
+                        </div>
 
 
                         <div className='p-6'>
@@ -148,11 +163,11 @@ export default function Industries() {
                     </div>
                     {/*  SaaS (HR Platform) */}
                     <div className=' border border-gray-200  overflow-hidden rounded-2xl hover:shadow-2xl flex flex-col gap-8'>
-                       <div className='relative '>  <div className='transition-transform  hover:scale-110 duration-500'>
-                          
+                        <div className='relative '>  <div className='transition-transform  hover:scale-110 duration-500'>
+
                             <img src="saas.jpg" alt="" className='object-cover w-full h-58' /></div>
                             <div className='absolute top-4 right-4 bg-blue-600 text-white px-4 py-2 rounded-full shadow-lg'>50% Less Admin Work</div>
-</div>
+                        </div>
                         <div className='p-6'>
                             <h1 className='text-blue-600 mb-2 text-sm'>SaaS (HR Platform)</h1>
                             <h1 className='text-xl mb-3'>SaaS-Based HR Application for a Workforce Management Company</h1>
@@ -166,10 +181,10 @@ export default function Industries() {
                     </div>
                     {/*  Events Marketplace Platform */}
                     <div className=' border border-gray-200  overflow-hidden rounded-2xl hover:shadow-2xl flex flex-col gap-8'>
-                      <div className='relative '>  <div className='transition-transform  hover:scale-110 duration-500'>
+                        <div className='relative '>  <div className='transition-transform  hover:scale-110 duration-500'>
                             <img src="event.jpg" alt="" className='object-cover w-full h-58' /></div>
                             <div className='absolute top-4 right-4 bg-blue-600 text-white px-4 py-2 rounded-full shadow-lg'>60% More Efficient</div>
-</div>
+                        </div>
                         <div className='p-6'>
                             <h1 className='text-blue-600 mb-2 text-sm'>Events Marketplace Platform</h1>
                             <h1 className='text-xl mb-3'>
@@ -178,15 +193,21 @@ export default function Industries() {
                             <p className='text-foreground/70 md:pr-0 pr-3  mb-3'>Built a comprehensive B2B event marketplace where users can plan, book, and manage every logistics component from one dashboard.                    </p>
                             <p className='text-foreground/60 pr-2'>
                                 Integrated vendor management, budgeting, and live reporting — improving event coordination efficiency by 60%.                    </p>
-                            <a href="" className='hover:underline text-sm text-black font-medium flex gap-3 p-4  items-center  underline-offset-4 '>
-                                <span className='font-semibold'>Read More</span>  <span><ArrowRight className='h-5 w-4' /></span>
-                            </a>
+                            <Button
+                                variant="link"
+                                href="/case-study"
+                                icon={<ArrowRight className="h-5 w-4 justify-start" />}
+                            >
+                                <span className="font-semibold">Read More</span>
+                            </Button>
                         </div>
                     </div>
                 </div>
                 {/*  see all case button */}
-                <div className='py-12  flex justify-center'>
-                    <a href="" className='px-4 py-2 rounded-md hover:bg-gray-300 font-semibold border border-gray-300 text-center text-sm'>See All Case Studies</a>
+                <div className="py-12 flex justify-center">
+                    <Button variant="outline" href="/case-studies">
+                        See All Case Studies
+                    </Button>
                 </div>
                 {/*  Technology heading */}
                 <div className=' py-20 lg:py-32 bg-background mx-auto px-4 lg:px-8   '>
@@ -311,14 +332,15 @@ export default function Industries() {
                     <div className='max-w-4xl mx-auto text-center'>
                         <h1 className='text-3xl lg:text-5xl mb-6 px-2'> Let's Build the Future of Your Industry — Together</h1>
                         <p className='text-xl text-white/90 mb-8 max-w-3xl px-2 md:px-0 mx-auto'>Whether you're a fintech startup, SaaS innovator, or enterprise-scale platform — we'll help you accelerate your journey with the right mix of talent, technology, and AI.</p>
+                        {/* 2 button book a discovery call and contact us */}
                         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                            <a href="#" className="text-sm flex items-center justify-center font-medium bg-white/90 text-black px-6 h-10 rounded-md hover:bg-gray-200">
+                            <Button variant="light" href="/book-call">
                                 Book a Discovery Call
-                            </a>
+                            </Button>
 
-                            <a href="#" className="text-sm border flex items-center justify-center font-medium h-10 hover:text-black hover:bg-white/10 text-white px-6 rounded-md">
+                            <Button variant="ghost" href="/contact">
                                 Contact Us
-                            </a>
+                            </Button>
                         </div>
 
                     </div>
