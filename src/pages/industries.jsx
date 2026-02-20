@@ -68,7 +68,7 @@ export default function Industries() {
                                 <div className='px-6 pt-12 pb-6'>
                                     <h1 className='text-2xl text-black font-medium'>HR & SaaS Platforms</h1>
                                     <h1 className='py-4 text-foreground/80'>Building next-gen SaaS applications for workforce and business management.</h1>
-                                    <p className='text-foreground/60 mb-0 pr-6'>Example: End-to-end HR platform for workforce automation — from onboarding to analytics.</p>
+                                    <p className='text-foreground/60 mb-0 pr-4'>Example: End-to-end HR platform for workforce automation — from onboarding to analytics.</p>
                                 </div></div>
 
 
@@ -112,7 +112,7 @@ export default function Industries() {
                                 <div className='pt-12 px-6 pb-6'>
                                     <h1 className='text-2xl text-black font-medium'>Technology & Startups</h1>
                                     <h1 className='py-4 text-foreground/80'>Helping product companies and startups scale faster.</h1>
-                                    <p className='text-foreground/60 px-2 md:px-0'>From MVPs to enterprise builds — delivering reliable product development and AI integration support.</p>
+                                    <p className='text-foreground/60  md:px-0'>From MVPs to enterprise builds — delivering reliable product development and AI integration support.</p>
                                 </div></div>
 
 
@@ -129,8 +129,12 @@ export default function Industries() {
 
                     {/*  Finance */}
                     <div className=' border border-gray-200  overflow-hidden rounded-2xl hover:shadow-2xl flex flex-col gap-8'>
-                        <div className='transition-transform  hover:scale-110 duration-500'>
-                            <img src="h.jpg" alt="" className='object-cover w-full h-58' /></div>
+                       <div className='relative '>
+                         <div className=' transition-transform  hover:scale-110 duration-500'>
+                            <img src="h.jpg" alt="" className='object-cover w-full h-58' /> </div>
+                            <div className='absolute top-4 right-4 bg-blue-600 text-white px-4 py-2 rounded-full shadow-lg'>3x Faster Delivery</div>
+                           </div>
+
 
                         <div className='p-6'>
                             <h1 className='text-blue-600 mb-2 text-sm'>Finance</h1>
@@ -144,9 +148,11 @@ export default function Industries() {
                     </div>
                     {/*  SaaS (HR Platform) */}
                     <div className=' border border-gray-200  overflow-hidden rounded-2xl hover:shadow-2xl flex flex-col gap-8'>
-                        <div className='transition-transform  hover:scale-110 duration-500'>
+                       <div className='relative '>  <div className='transition-transform  hover:scale-110 duration-500'>
+                          
                             <img src="saas.jpg" alt="" className='object-cover w-full h-58' /></div>
-
+                            <div className='absolute top-4 right-4 bg-blue-600 text-white px-4 py-2 rounded-full shadow-lg'>50% Less Admin Work</div>
+</div>
                         <div className='p-6'>
                             <h1 className='text-blue-600 mb-2 text-sm'>SaaS (HR Platform)</h1>
                             <h1 className='text-xl mb-3'>SaaS-Based HR Application for a Workforce Management Company</h1>
@@ -160,15 +166,16 @@ export default function Industries() {
                     </div>
                     {/*  Events Marketplace Platform */}
                     <div className=' border border-gray-200  overflow-hidden rounded-2xl hover:shadow-2xl flex flex-col gap-8'>
-                        <div className='transition-transform  hover:scale-110 duration-500'>
+                      <div className='relative '>  <div className='transition-transform  hover:scale-110 duration-500'>
                             <img src="event.jpg" alt="" className='object-cover w-full h-58' /></div>
-
+                            <div className='absolute top-4 right-4 bg-blue-600 text-white px-4 py-2 rounded-full shadow-lg'>60% More Efficient</div>
+</div>
                         <div className='p-6'>
                             <h1 className='text-blue-600 mb-2 text-sm'>Events Marketplace Platform</h1>
                             <h1 className='text-xl mb-3'>
                                 Enterprise Event Management Platform
                             </h1>
-                            <p className='text-foreground/70 md:pr-0 pr-2  mb-3'>Built a comprehensive B2B event marketplace where users can plan, book, and manage every logistics component from one dashboard.                    </p>
+                            <p className='text-foreground/70 md:pr-0 pr-3  mb-3'>Built a comprehensive B2B event marketplace where users can plan, book, and manage every logistics component from one dashboard.                    </p>
                             <p className='text-foreground/60 pr-2'>
                                 Integrated vendor management, budgeting, and live reporting — improving event coordination efficiency by 60%.                    </p>
                             <a href="" className='hover:underline text-sm text-black font-medium flex gap-3 p-4  items-center  underline-offset-4 '>
@@ -183,7 +190,7 @@ export default function Industries() {
                 </div>
                 {/*  Technology heading */}
                 <div className=' py-20 lg:py-32 bg-background mx-auto px-4 lg:px-8   '>
-                    <h1 className='text-3xl md:text-5xl max-w-3xl mb-16 text-center mx-auto flex justify-center font-medium mb-4 pt-18'>Technology, AI, and Talent — The Pillars of Our Impact</h1>
+                    <h1 className='text-3xl md:text-5xl max-w-3xl mb-16 text-center mx-auto flex justify-center font-medium mb-4 pt-18 md:px-0 px-2'>Technology, AI, and Talent — The Pillars of Our Impact</h1>
                     {/*  3 cols */}
                     <div className='grid grid-cols-1 md:grid-cols-3 gap-8 '>
                         {/*  1 col */}
@@ -233,7 +240,7 @@ export default function Industries() {
                                     <Target className=' h-6 w-6 text-blue-600 ' />
                                 </div>
                                 <div>
-                                    <h1 className='text-xl mb-2 font-semibold pr-2 '>Domain-aware engineering teams</h1>
+                                    <h1 className='text-xl mb-2 font-semibold pr-3 '>Domain-aware engineering teams</h1>
                                     <p className='text-foreground/70'>Deep understanding of industry-specific challenges and requirements</p>
                                 </div>
                             </div>
@@ -244,7 +251,7 @@ export default function Industries() {
                                     <TrendingUp className=' h-6 w-6 text-blue-600 ' />
                                 </div>
                                 <div>
-                                    <h1 className='text-xl mb-2 font-semibold pr-2'>Leadership-driven delivery model</h1>
+                                    <h1 className='text-xl mb-2 font-semibold pr-4'>Leadership-driven delivery model</h1>
                                     <p className='text-foreground/70'>Experienced delivery heads ensuring accountability and transparency</p>
                                 </div>
                             </div>
@@ -302,17 +309,17 @@ export default function Industries() {
                 </div>
                 <div className=' py-20 lg:py-32  mx-auto px-4 lg:px-8 bg-gradient-to-br from-blue-600 to-purple-700 text-white'>
                     <div className='max-w-4xl mx-auto text-center'>
-                        <h1 className='text-3xl lg:text-5xl mb-6'> Let's Build the Future of Your Industry — Together</h1>
+                        <h1 className='text-3xl lg:text-5xl mb-6 px-2'> Let's Build the Future of Your Industry — Together</h1>
                         <p className='text-xl text-white/90 mb-8 max-w-3xl px-2 md:px-0 mx-auto'>Whether you're a fintech startup, SaaS innovator, or enterprise-scale platform — we'll help you accelerate your journey with the right mix of talent, technology, and AI.</p>
-                      <div className="flex flex-col sm:flex-row gap-4 justify-center">
-  <a href="#" className="text-sm flex items-center justify-center font-medium bg-white/90 text-black px-6 h-10 rounded-md hover:bg-gray-200">
-    Book a Discovery Call
-  </a>
+                        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                            <a href="#" className="text-sm flex items-center justify-center font-medium bg-white/90 text-black px-6 h-10 rounded-md hover:bg-gray-200">
+                                Book a Discovery Call
+                            </a>
 
-  <a href="#" className="text-sm border flex items-center justify-center font-medium h-10 hover:text-black hover:bg-white/10 text-white px-6 rounded-md">
-    Contact Us
-  </a>
-</div>
+                            <a href="#" className="text-sm border flex items-center justify-center font-medium h-10 hover:text-black hover:bg-white/10 text-white px-6 rounded-md">
+                                Contact Us
+                            </a>
+                        </div>
 
                     </div>
 
