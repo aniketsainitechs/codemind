@@ -5,6 +5,7 @@ import { GoArrowRight } from "react-icons/go";
 import { IoMdTrendingUp } from "react-icons/io";
 import { FaRegClock } from "react-icons/fa";
 import { LuCircleCheckBig } from "react-icons/lu";
+import Button from "@/components/ui/Button";
 export default  function Case1() {
     return(
 <>
@@ -18,8 +19,13 @@ export default  function Case1() {
 <p className="text-black text-4xl md:text-5xl py-5">Cloud-Based HR Management Platform</p>
 <p className="text-blue-600 text-2xl">Reduced administrative effort by 50% with scalable SaaS architecture</p>
 <p className="text-gray-600 text-xl py-6">Designed and developed a comprehensive HR platform to manage recruitment, payroll, and performance analytics for a workforce management company.</p>
-<button className="text-white inline-flex gap-3  bg-black hover:bg-gray-900  text-sm  font-semibold py-2.5 px-5 rounded-lg">Learn More About This Solution <ArrowRight className="w-4 h-4"/></button>
-</div>
+   <Button
+                            variant="primary"
+                            className="py-2.5 px-5 inline-flex"
+                            icon={<ArrowRight className="w-4 h-4" /> }
+                        >
+                            Learn More About This Solution
+                        </Button></div>
 
 
 <div className="py-15 px-5 xl:py-40 lg:py-40 xl:px-0">
@@ -201,8 +207,14 @@ backgroundPosition:"Center",
     <p className="text-black  text-center text-3xl xl:leading-18">Ready to see what we can build for you?</p>
     <p className="text-xl text-center text-gray-600 xl:pt-0 pt-4 ">Let's discuss your project and explore how we can deliver similar results.</p>
 <div className="flex justify-center pt-10">
-<button className="rounded-lg inline-flex gap-4 items-center justify-center bg-black  text-white hover:bg-gray-900 text-sm py-3 px-5">Talk to Us <GoArrowRight  className="w-4 h-4 text-white"/></button>
-</div></div>
+
+                        <Button
+                            variant="primary"
+                            className=" inline-flex"
+                            icon={<ArrowRight className="w-4 h-4" /> }
+                        >
+                           Talk To Us
+                        </Button>    </div></div>
 
 
 
