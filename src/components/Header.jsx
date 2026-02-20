@@ -39,7 +39,7 @@ export default function header() {
                         <Link href="/industries">Industries</Link>
                         <Link href="/case">Case Studies</Link>
                         <Link href="/about">About</Link>
-                        <Link href="">Insights</Link>
+                        <Link href="/insights">Insights</Link>
                         <Link href="">Contact</Link>
                     </div>
                     <div>
@@ -81,7 +81,7 @@ transform transition-transform duration-300 bg-white
                            <Link href="/industries">Industries</Link>
                         <Link href="/case">Case Studies</Link>
                         <Link href="/about">About</Link>
-                        <Link href="">Insights</Link>
+                        <Link href="/insights">Insights</Link>
                         <Link href="">Contact</Link>
 
 
