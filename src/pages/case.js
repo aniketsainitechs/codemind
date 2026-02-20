@@ -70,9 +70,9 @@ export default function Case() {
 <div className='group relative text-xl text-amber-200 rounded-xl shadow-md w-full max-w-[380px] h-[350px]  overflow-hidden cursor-pointer transition-all duration-300 hover:-translate-y-1 hover:shadow-xl '>
   <img className="w-full h-full  object-cover object-[50%_80%]  transition-transform duration-500 
                group-hover:scale-110 "src="./photo-1.jfif"></img>
-               <div className='absolute top-4 left-4 bg-white rounded-2xl'>
-                <Link href = "/case1"className='px-2 pb-2  text-xs text-black '>AI & Automation</Link>
-               </div>
+              
+                <Link href ="/case1" className=' absolute top-4 left-4 px-3 py-1.5  bg-white rounded-2xl text-xs text-black '>AI & Automation</Link>
+              
   <div className='absolute bottom-0 left-0 right-0 bg-gray-100 py-5 px-5'>
     <p className="text-sm text-gray-400">FinTech Client</p>
     
@@ -86,12 +86,12 @@ export default function Case() {
 
 
 {/*2 */}
-<div className='group relative text-xl text-amber-200 rounded-xl shadow-md w-full max-w-[380px] h-[350px]  overflow-hidden cursor-pointer transition-all duration-300 hover:-translate-y-1 group-hover:shadow-xl'>
+<div className='group  relative text-xl text-amber-200 rounded-xl shadow-md w-full max-w-[380px] h-[350px]  overflow-hidden cursor-pointer transition-all duration-300 hover:-translate-y-1 group-hover:shadow-xl'>
   <img className="w-full h-full object-cover object-[50%_80%]  transition-transform duration-500 
                group-hover:scale-110"src="./photo-2.jfif"></img>
-               <div className='absolute top-4 left-4 bg-white rounded-2xl'>
-                <button className='px-2 pb-2  text-xs text-black '>Product Development</button>
-               </div>
+               
+               <Link href ="/case2" className='absolute top-4 left-4 bg-white rounded-2xl px-3 py-1.5  text-xs text-black '>Product Development</Link>
+               
   <div className='absolute bottom-0 left-0 right-0 bg-white py-5 px-5'>
     <p className="text-sm text-gray-400">HR SaaS Company</p>
     
@@ -107,9 +107,9 @@ export default function Case() {
 <div className=' group relative text-xl text-amber-200 rounded-xl shadow-md  w-full max-w-[380px] h-[350px] ] overflow-hidden cursor-pointer transition-all duration-300 hover:-translate-y-1 hover:shadow-xl '>
   <img className="w-full h-full pb-30 transition-transform duration-500 
                group-hover:scale-110"src="./photo-3.jfif"></img>
-                <div className='absolute top-4 left-4 bg-white rounded-2xl'>
-                <button className='px-2 pb-2  text-xs text-black '>Product Development</button>
-               </div>
+                
+               <Link href ="/case3" className='absolute top-4 left-4 bg-white rounded-2xl px-3 py-1.5  text-xs text-black '>Product Development</Link>
+               
   <div className='absolute bottom-0 left-0 right-0 bg-white py-5 px-5'>
     <p className="text-sm text-gray-400">Events Industry</p>
   
@@ -125,9 +125,9 @@ export default function Case() {
 <div className=' group relative text-xl text-amber-200 rounded-xl shadow-md w-full max-w-[380px] h-[350px]    overflow-hidden cursor-pointer transition-all duration-300 hover:-translate-y-1 hover:shadow-xl'>
   <img className="w-full h-full object-cover object-[50%_100%]  transition-transform duration-500 
                group-hover:scale-110 "src="./photo-4.jfif"></img>
-                <div className='absolute top-4 left-4 bg-white rounded-2xl'>
-                <button className='px-2 pb-2  text-xs text-black '>Talent Augmentation</button>
-               </div>
+               
+               <Link href ="/case4" className=' absolute top-4 left-4 py-1.5 px-3 bg-white rounded-2xl text-xs text-black '>Talent Augmentation</Link>
+               
   <div className='absolute bottom-0 left-0 right-0 bg-white py-5 px-5'>
     <p className="text-sm text-gray-400">Financial Services Provider</p>
   
