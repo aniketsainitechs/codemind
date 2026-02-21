@@ -1,4 +1,4 @@
-import { ArrowRight, Funnel  } from 'lucide-react';
+import { ArrowRight, Funnel } from 'lucide-react';
 import Button from '@/components/ui/Button';
 import Link from "next/link";
 export default function Case() {
@@ -69,12 +69,13 @@ export default function Case() {
 
         {/*second div */}
         <div className=' sticky top-20  md:flex md:items-center md:justify-center md:space-x-5 grid grid-cols-2 gap-y-5 md:px-0 px-4 justify-items-center bg-white/40 z-40 backdrop-blur-3xl  py-8 border border-b-gray-200 border-t-0 border-x-0 font-semibold '>
-<Button
-                variant="secondary"
-                className="mt-2 text-sm py-[6px] px-[10px]"
-              >   <Funnel className='h-4 w-4' />
-               All Projects
-              </Button>          <button className='text-black hover:bg-gray-200 py-1 px-3 rounded-md  text-sm '>Product Development</button>
+          <Button
+            variant="secondary"
+            className="mt-2 text-sm py-[6px] px-[10px]"
+          >   <Funnel className='h-4 w-4' />
+            All Projects
+          </Button>
+          <button className='text-black hover:bg-gray-200 py-1 px-3 rounded-md  text-sm '>Product Development</button>
           <button className='text-black hover:bg-gray-200 py-1 px-3 rounded-md  text-sm'>AI & Automation</button>
           <button className='text-black hover:bg-gray-200 py-1 px-3 rounded-md  text-sm '>Talent Augmentation</button>
 
@@ -98,11 +99,11 @@ export default function Case() {
               <p className='text-[15px] text-gray-500 py-3 '>Reduced manual data entry by 60%</p>
               <Button
                 variant="text"
-                className="text-sm inline-flex  group gap-0"
+                className="text-sm inline-flex  group !gap-0"
                 icon={<ArrowRight className="w-4 h-4 transition-all duration-300  group-hover:translate-x-1" />}
-              >
-                View Case Study
-              </Button>            </div>
+              > View Case Study
+              </Button>
+            </div>
           </div>
 
 
@@ -122,7 +123,7 @@ export default function Case() {
               <p className='text-[15px] text-gray-500 py-3'>Cut admin effort by 50%</p>
               <Button
                 variant="text"
-                className="text-sm inline-flex  group gap-0"
+                className="text-sm inline-flex  group !gap-0"
                 icon={<ArrowRight className="w-4 h-4 transition-all duration-300  group-hover:translate-x-1" />}
               >
                 View Case Study
@@ -145,7 +146,7 @@ export default function Case() {
               <p className='text-[15px] text-gray-500 py-3'>60% more efficient coordination</p>
               <Button
                 variant="text"
-                className="text-sm inline-flex  group gap-0"
+                className="text-sm inline-flex  group !gap-0"
                 icon={<ArrowRight className="w-4 h-4 transition-all duration-300  group-hover:translate-x-1" />}
               >
                 View Case Study
@@ -168,11 +169,12 @@ export default function Case() {
               <p className='text-[15px] text-gray-500 py-3'>faster project delivery</p>
               <Button
                 variant="text"
-                className="text-sm inline-flex  group gap-0"
+                className="text-sm inline-flex  group !gap-0"
                 icon={<ArrowRight className="w-4 h-4 transition-all duration-300  group-hover:translate-x-1" />}
               >
                 View Case Study
-              </Button>             </div>
+              </Button>
+            </div>
           </div>
 
         </div>
