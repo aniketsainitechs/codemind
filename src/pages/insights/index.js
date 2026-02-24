@@ -345,7 +345,7 @@ export default function Insights() {
                                 Get the latest insights on AI, automation, and technology trends delivered to your inbox.                                    </p>
                             {/* 2 button*/}
                             <div className="flex gap-4 max-w-md mx-auto justify-center">
-                                                                <input type="email" placeholder="Enter your email"
+                                <input type="email" placeholder="Enter your email"
                                  className=' flex-1 px-4 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-white placeholder:text-gray-800 ' 
                                  />
                                 <Button variant="light" href="/book-call" className='hover:bg-gray-300'>
