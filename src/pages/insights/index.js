@@ -1,7 +1,8 @@
 "use client";
-import { ArrowRight, Calendar, Clock } from 'lucide-react';
+import { ArrowRight, Calendar, Clock, } from 'lucide-react';
 import Button from '@/components/ui/Button';
 import { useState } from 'react';
+import Link from 'next/link';
 export default function Insights() {
     const [activeTab, setActiveTab] = useState("all");
     return (
@@ -15,7 +16,7 @@ export default function Insights() {
             </section>
             <section className=" max-w-6xl mx-auto py-20 pb-16">
                 {/* 3 button */}
-                <div className="flex items-center justify-between bg-gray-200 rounded-xl p-1 md:mx-0 mx-2">
+                <div className="flex items-center justify-between bg-gray-200/70 rounded-xl p-[3px] md:mx-0 mx-2">
 
                     <button
                         onClick={() => setActiveTab("all")}
@@ -55,9 +56,11 @@ export default function Insights() {
 
                             <div className=' group border border-gray-200  rounded-2xl  flex flex-col  overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-1'>
                                 <div className='relative '>
-                                    <div className=' transition-transform relative h-48 overflow-hidden bg-slate-100 '>
+                                    <Link href="/insights/agentic-ai"> 
+                                      <div className=' transition-transform relative h-48 overflow-hidden bg-slate-100 '>
                                         <img src="ai.jpg" alt="" className='w-full h-full object-cover group-hover:scale-105 transition-transform duration-300' />
                                     </div>
+                                    </Link>
                                     <div className='absolute top-4 left-4 bg-white/90 text-black/90 px-3 py-1 backdrop-blur-sm  text-center text-xs rounded-full shadow-lg'>AI & Automation</div>
                                 </div>
 
@@ -174,8 +177,8 @@ export default function Insights() {
                             {/* 2 button*/}
                             <div className=" flex gap-4 max-w-md mx-auto justify-center">
                                 <input type="email" placeholder="Enter your email"
-                                 className=' flex-1 px-4 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-white placeholder:text-gray-800 ' 
-                                 />
+                                    className=' flex-1 px-4 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-white placeholder:text-gray-800 '
+                                />
 
                                 <Button variant="light" href="/book-call" className='hover:bg-gray-300 '>
                                     Subscribe
@@ -276,9 +279,9 @@ export default function Insights() {
                                 Get the latest insights on AI, automation, and technology trends delivered to your inbox.                                    </p>
                             {/* 2 button*/}
                             <div className="flex gap-4 max-w-md mx-auto justify-center">
-                                                               <input type="email" placeholder="Enter your email"
-                                 className=' flex-1 px-4 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-white placeholder:text-gray-800 ' 
-                                 />
+                                <input type="email" placeholder="Enter your email"
+                                    className=' flex-1 px-4 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-white placeholder:text-gray-800 '
+                                />
                                 <Button variant="light" href="/book-call" className='hover:bg-gray-300'>
                                     Subscribe
                                 </Button>
@@ -346,8 +349,8 @@ export default function Insights() {
                             {/* 2 button*/}
                             <div className="flex gap-4 max-w-md mx-auto justify-center">
                                 <input type="email" placeholder="Enter your email"
-                                 className=' flex-1 px-4 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-white placeholder:text-gray-800 ' 
-                                 />
+                                    className=' flex-1 px-4 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-white placeholder:text-gray-800 '
+                                />
                                 <Button variant="light" href="/book-call" className='hover:bg-gray-300'>
                                     Subscribe
                                 </Button>
